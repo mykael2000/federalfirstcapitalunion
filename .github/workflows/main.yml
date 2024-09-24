@@ -2,8 +2,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 * * * *'
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -12,13 +10,15 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /
-          protocol: ftps-legacy
-          log-level: verbose
+          server: ftp.writersblogvilla.com  # Your FTP server
+          username: admin@federalfirstcapitalunion.com  # Your FTP username
+          password: ${{ secrets.FTP_PASSWORD }}  # Your FTP password from secrets
+          server-dir: /  # Destination directory on the server
+          protocol: ftp  # Start with FTP
+          log-level: verbose  # Enable verbose logging for debugging

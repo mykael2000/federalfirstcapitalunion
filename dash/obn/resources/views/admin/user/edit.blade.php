@@ -378,7 +378,7 @@
                                             <span class="text-danger">{{ $message }}</span>
                                             @enderror
                                         </div>
-                                      <div class="col-md-6">
+                                      {{-- <div class="col-md-6">
                                             <label for="first_name">Transfer OTP</label>
                                             <div class="input-group  mb-3">
                                                 <div class="input-group-prepend">
@@ -390,7 +390,7 @@
                                             @error('otp')
                                             <span class="text-danger">{{ $message }}</span>
                                             @enderror
-                                        </div>
+                                        </div> --}}
 
                                     </div>
 

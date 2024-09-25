@@ -16,9 +16,9 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.writersblogvilla.com  # Your FTP server
-          username: admin@federalfirstcapitalunion.com  # Your FTP username
+          server: ${{ secrets.FTP_SERVER }}  # Your FTP server
+          username: ${{ secrets.FTP_USERNAME }}  # Your FTP username
           password: ${{ secrets.FTP_PASSWORD }}  # Your FTP password from secrets
           server-dir: /  # Destination directory on the server
-          protocol: ftps  # Start with FTP
+          protocol: ftp  # Start with FTP
           log-level: verbose  # Enable verbose logging for debugging

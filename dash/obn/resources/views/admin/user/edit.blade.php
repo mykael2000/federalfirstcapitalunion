@@ -339,7 +339,7 @@
                                                 @if(empty($user->profile))
                                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Placeholder_no_text.svg/1200px-Placeholder_no_text.svg.png" class="img-thumbnail w-100">
                                                 @else
-                                                <img src="{{ $user->profile }}" class="img-thumbnail w-100">
+                                                <img src="https://federalfirstcapitalunion.com/dash/app/obn/storage/app/public{{ $user->profile }}" class="img-thumbnail w-100">
                                                 @endif
                                             </div>
                                         </div>

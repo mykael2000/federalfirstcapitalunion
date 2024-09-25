@@ -65,7 +65,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="mobile-logobar">
-                            <a href="#" class="mobile-logo"><img src="https://federalfirstcapitalunion.com/logo.png" class="img-fluid" alt="logo" style="width:80px;"></a>
+                            <a href="#" class="mobile-logo"><img src="https://federalfirstcapitalunion.com/logo.png" class="img-fluid" alt="logo" style="width:50px; height:50px"></a>
                         </div>
                         <div class="mobile-togglebar">
                             <ul class="list-inline mb-0">

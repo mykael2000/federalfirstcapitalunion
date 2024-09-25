@@ -121,7 +121,7 @@ class UserController extends Controller
 
             $imagePath = $request->passport->store('public/checks');
 
-            $records['profile'] = '/storage' . str_replace('public', '', $imagePath);
+            $records['profile'] = str_replace('public', '', $imagePath);
 
         }
 

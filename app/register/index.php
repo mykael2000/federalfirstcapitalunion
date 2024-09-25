@@ -1,2 +1,2 @@
 <?php 
-header("location: ../../user/register.php");
+header("location: ../../dash/app/register");

@@ -102,7 +102,7 @@
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item">
                                         <div class="logobar">
-                                            <a href="#" class="logo logo-large"><img src="https://federalfirstcapitalunion.com/logo.png" class="img-fluid" alt="logo" style="width:80px;"></a>
+                                            <a href="#" class="logo logo-large"><img src="https://federalfirstcapitalunion.com/logo.png" class="img-fluid" alt="logo" style="width:80px; height:50px"></a>
                                         </div>
                                     </li>
                                 </ul>

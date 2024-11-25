@@ -10,7 +10,7 @@
     </div>
     <!-- End Containerbar -->
 
-
+    <script src="//code.tidio.co/ltzlhu3szayzvcganip1tppvejj8kdqm.js" async></script>
     <!-- Start js -->
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('assets/js/popper.min.js')}}"></script>
